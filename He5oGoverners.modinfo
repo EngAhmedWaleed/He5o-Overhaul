@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="bdffd1bc-49e5-4dd6-81b2-aab1eb55563f"
+<Mod id="786b9520-aed0-4b82-bb40-e95f12ea0a08"
    	version="3.12.2">
 	<Properties>
 		<Name>He5oGoverners (1.0)</Name>
@@ -20,12 +20,24 @@
 			<File>text.xml</File>
 		</UpdateText>
 		<UpdateDatabase id="Import_Edited_Parameters">
-			<File>sql.sql</File>
+			<File>sql/Amany.sql</File>
+			<File>sql/Liang.sql</File>
+			<File>sql/Magnus.sql</File>
+			<File>sql/Moshka.sql</File>
+			<File>sql/Pingala.sql</File>
+			<File>sql/Reyna.sql</File>
+			<File>sql/Vector.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
-		<File>sql.sql</File>
+		<File>sql/Amany.sql</File>
+		<File>sql/Liang.sql</File>
+		<File>sql/Magnus.sql</File>
+		<File>sql/Moshka.sql</File>
+		<File>sql/Pingala.sql</File>
+		<File>sql/Reyna.sql</File>
+		<File>sql/Vector.sql</File>
 	</Files>
 </Mod>
