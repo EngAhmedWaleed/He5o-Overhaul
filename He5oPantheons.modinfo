@@ -18,12 +18,54 @@
 			<File>text.xml</File>
 		</UpdateText>
 		<UpdateDatabase id="Import_Edited_Parameters">
-			<File>sql/Pantheons.sql</File>
+			<File>sql/CITY_PATRON_GODDESS.sql</File>
+			<File>sql/DIVINE_SPARK.sql</File>
+			<File>sql/EARTH_GODDESS.sql</File>
+			<File>sql/FERTILITY_RITES.sql</File>
+			<File>sql/GOD_OF_HEALING.sql</File>
+			<File>sql/GOD_OF_REDEMTION.sql</File>
+			<File>sql/GOD_OF_THE_FORGE.sql</File>
+			<File>sql/GOD_OF_THE_SEA.sql</File>
+			<File>sql/GOD_OF_WAR.sql</File>
+			<File>sql/GODDESS_OF_COMMERCE.sql</File>
+			<File>sql/GODDESS_OF_FESTIVALS.sql</File>
+			<File>sql/GODDESS_OF_THE_HUNT.sql</File>
+			<File>sql/INITIATION_RITES.sql</File>
+			<File>sql/LADY_OF_THE_REEDS.sql</File>
+			<File>sql/MONUMENT_TO_THE_GODS.sql</File>
+			<File>sql/ORAL_TRADITION.sql</File>
+			<File>sql/RELIGIOUS_IDOLS.sql</File>
+			<File>sql/RELIGIOUS_SETTLEMENTS.sql</File>
+			<File>sql/RIVER_GODDESS.sql</File>
+			<File>sql/SACRED_PATH.sql</File>
+			<File>sql/SPIRIT_OF_THE_DEITY.sql</File>
+			<File>sql/STONE_CIRCLES.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
-		<File>sql/Pantheons.sql</File>
+		<File>sql/CITY_PATRON_GODDESS.sql</File>
+		<File>sql/DIVINE_SPARK.sql</File>
+		<File>sql/EARTH_GODDESS.sql</File>
+		<File>sql/FERTILITY_RITES.sql</File>
+		<File>sql/GOD_OF_HEALING.sql</File>
+		<File>sql/GOD_OF_REDEMTION.sql</File>
+		<File>sql/GOD_OF_THE_FORGE.sql</File>
+		<File>sql/GOD_OF_THE_SEA.sql</File>
+		<File>sql/GOD_OF_WAR.sql</File>
+		<File>sql/GODDESS_OF_COMMERCE.sql</File>
+		<File>sql/GODDESS_OF_FESTIVALS.sql</File>
+		<File>sql/GODDESS_OF_THE_HUNT.sql</File>
+		<File>sql/INITIATION_RITES.sql</File>
+		<File>sql/LADY_OF_THE_REEDS.sql</File>
+		<File>sql/MONUMENT_TO_THE_GODS.sql</File>
+		<File>sql/ORAL_TRADITION.sql</File>
+		<File>sql/RELIGIOUS_IDOLS.sql</File>
+		<File>sql/RELIGIOUS_SETTLEMENTS.sql</File>
+		<File>sql/RIVER_GODDESS.sql</File>
+		<File>sql/SACRED_PATH.sql</File>
+		<File>sql/SPIRIT_OF_THE_DEITY.sql</File>
+		<File>sql/STONE_CIRCLES.sql</File>
 	</Files>
 </Mod>

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<Replace Tag="LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION" Language="en_US">
+			<Text>+15% [ICON_Production] Production towards wonders.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_CITY_PATRON_GODDESS_DESCRIPTION" Language="en_US">
+			<Text>+100% [ICON_Production] Production toward districts in cities without a specialty district.</Text>
+		</Replace>
 		<Replace Tag="LOC_BELIEF_RIVER_GODDESS_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Food] Food and +1 [ICON_FAITH] Faith from Farms adjacent to a River.</Text>
 		</Replace>
