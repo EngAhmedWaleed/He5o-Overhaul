@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="786b9520-aed0-4b82-bb40-e95f12ea0a08"
-   	version="3.12.2">
+<Mod id="786b9520-aed0-4b82-bb40-e95f12ea0a08" version="1">
 	<Properties>
 		<Name>He5oGoverners (1.0)</Name>
 		<Description>This mod reworks the existing Governor promotions.</Description>
@@ -11,8 +10,7 @@
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 	<Dependencies>
-		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9"
-   			title="Expansion: Rise and Fall"/>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
 	</Dependencies>
 	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
 	<InGameActions>
