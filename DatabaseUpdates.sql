@@ -1,3 +1,15 @@
+-- Lakes +2 Food/+1 Gold Base
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ("BETTER_LAKE_FOOD", "MODIFIER_GAME_ADJUST_PLOT_YIELD", "FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS"); 
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 
+	("BETTER_LAKE_FOOD", "YieldType", "YIELD_FOOD"),
+	("BETTER_LAKE_FOOD", "Amount", "1"); 
+INSERT INTO GameModifiers (ModifierId) VALUES ("BETTER_LAKE_FOOD");
+
+-- -- Lakes +2 Food/+1 Gold Base
+-- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ("BETTER_LAKE_FOOD", "MODIFIER_ALL_CITIES_ATTACH_MODIFIER"); 
+-- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ("BETTER_LAKE_FOOD", "ModifierId", "HUEY_LAKE_FOOD_MODIFIER"); 
+-- INSERT INTO GameModifiers (ModifierId) VALUES ("BETTER_LAKE_FOOD"); 
+
 --- Temporarily
 -- Unit prerequisite stuff, only missionaries for Stonehenge
 INSERT INTO Unit_BuildingPrereqs (Unit,	PrereqBuilding) VALUES	

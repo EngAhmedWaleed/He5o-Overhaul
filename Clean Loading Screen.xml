@@ -313,7 +313,7 @@
 		</Replace>
 		<!--Trajan: Rome-->
 		<Replace Tag="LOC_TRAIT_LEADER_TRAJANS_COLUMN_DESCRIPTION">
-			<Text>All cities start with an additional City Center building.[NEWLINE](Starts with a Monument building in the Ancient era)</Text>
+			<Text>All cities start with an additional City Center building.[NEWLINE](Starts with a Monument building in the Ancient era after unlocking Code of Laws Civic)</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_ALL_ROADS_TO_ROME_DESCRIPTION">
 			<Text>All cities you found or conquer start with a Trading Post, if in [ICON_TradeRoute] Trade Route range of your [ICON_Capital] Capital, they also start with a road to it.[NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Gold] Gold for passing through Trading Posts in your own cities.</Text>
