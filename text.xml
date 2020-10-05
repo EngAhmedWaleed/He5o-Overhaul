@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		
+		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_ENVOY] Envoy when you build a wonder, including Apadana, in your cities.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital."</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Culture] Culture in this city. 1 free random Atomic era civic boost. Must be built on flat land adjacent to a Theater Square district.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_CASA_DE_CONTRATACION_DESCRIPTION" Language="en_US">
+			<Text>Gain 3 [ICON_Governor] Governor promotions.  Cities with a [ICON_Governor] Governor gain +15% [ICON_Production] Production, +15% [ICON_Faith] Faith and +15% [ICON_Gold] Gold. Must be built adjacent to a Government Plaza.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Tourism] Tourism in this city. All tiles in your civilization gain +2 Appeal. Must be built on flat land adjacent to the City Center.</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

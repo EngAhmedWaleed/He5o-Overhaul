@@ -1,4 +1,6 @@
 # Changes
+* Apadana: Additional Enovy when you build a Wonder in any of your cities.
+
 * Bolshoi Theatre: 2 slots for writing, 2 slots for music (up from 1/1).
 
 * Broadway : +50% Culture in this city instead of +20%.
@@ -32,6 +34,8 @@
 * Ruhr Valley: Now provides +1 Production to each Mine, Quarry, and Lumber Mill in your territory when the improvement is adjacent to a river. Instead of providing +20% Production in the city in which it is built, provides +2 Production for each specialty district in your cities.
 
 * Statue of Liberty: Global Loyalty never drops.
+
+* Stonehenge: Can purchase Missionaries with Faith in the city that builds it.
 
 * Sydney Opera House: +50% Tourism in all of your cities, and +10 Tourism in each Theater Square district with a Broadcast Center
 

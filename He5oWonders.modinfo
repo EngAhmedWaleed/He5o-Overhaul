@@ -18,14 +18,12 @@
 			<File>text.xml</File>
 		</UpdateText>
 		<UpdateDatabase id="Import_Edited_Parameters">
-			<File>sql/x.sql</File>
-			
+			<File>sql/wonders.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
-		<File>sql/x.sql</File>
-		
+		<File>sql/wonders.sql</File>
 	</Files>
 </Mod>
