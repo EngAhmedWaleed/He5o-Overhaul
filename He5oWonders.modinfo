@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="f332e104-b422-4216-82ce-76c94346fdc2" version="1">
+	<Properties>
+		<Name>He5oWonders (1.0)</Name>
+		<Description>This mod tunes the boring wonders up.</Description>
+		<Teaser>A humble approach towards a better game.</Teaser>
+		<Authors>Ahmed Waleed</Authors>
+		<Email>ahmedwaleed@csed22.com</Email>
+		<SpecialThanks>Sobhy Said, World Wonders, Wonder Rework</SpecialThanks>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+	</Dependencies>
+	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
+	<InGameActions>
+		<UpdateText id="Text_Updates">
+			<File>text.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="Import_Edited_Parameters">
+			<File>sql/x.sql</File>
+			
+		</UpdateDatabase>
+	</InGameActions>
+	<!-- defines file dependencies -->
+	<Files>
+		<File>text.xml</File>
+		<File>sql/x.sql</File>
+		
+	</Files>
+</Mod>
