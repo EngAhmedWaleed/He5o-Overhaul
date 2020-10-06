@@ -2,7 +2,7 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_BUILDING_APADANA_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_ENVOY] Envoy when you build a wonder, including Apadana, in your cities.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital."</Text>
+			<Text>+1 [ICON_ENVOY] Envoy when you build a wonder, including Apadana, in your cities.[NEWLINE][NEWLINE]Must be built adjacent to your [ICON_CAPITAL] Capital.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_BROADWAY_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Culture] Culture in this city. 1 free random Atomic era civic boost. Must be built on flat land adjacent to a Theater Square district.</Text>
@@ -13,5 +13,75 @@
 		<Replace Tag="LOC_BUILDING_EIFFEL_TOWER_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Tourism] Tourism in this city. All tiles in your civilization gain +2 Appeal. Must be built on flat land adjacent to the City Center.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_KILWA_KISIWANI_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_ENVOY] Envoys when built. +3 Influence points per turn toward earning city-state [ICON_Envoy] Envoys. When you are the Suzerain of a City-State this city receives a +25% boost to the Type bonuses provided by that City-State. If you are the Suzerain to 2 or more City-States of that type an additional +25% boost is given to all your cities. Must be built on a flat tile adjacent to Coast.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_KOTOKU_IN_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Faith] Faith in this city. Grants 4 Missionaries.[NEWLINE][NEWLINE]Must be built adjacent to a Holy Site district with a Temple. Warrior Monks can only be received if player has founded a religion or if there is a majority religion for this player or city.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_STATUE_LIBERTY_DESCRIPTION" Language="en_US">
+			<Text>Grants 2 Settlers. All your cities are always 100% Loyal. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_TAJ_MAHAL_DESCRIPTION" Language="en_US">
+			<Text>+1 Era Score from Historic Moment earned after this wonder is complete if that Moment is usually worth 2 or more Era Score. During a [ICON_GLORY_GOLDEN_AGE] Golden Age, this city gets +20% [ICON_Production] Production and Growth, as well as +15% [ICON_Science] Science, [ICON_Culture] Culture, [ICON_Gold] Gold, and [ICON_Faith] Faith. Must be built next to a river.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_JEBEL_BARKAL_DESCRIPTION" Language="en_US">
+			<Text>Awards 2 [ICON_RESOURCE_IRON] Iron. Gain [ICON_Faith] Faith equal to 25% of the unit's cost when producing a non civilian unit in any city in your empire.[NEWLINE][NEWLINE]Must be built on Desert (Hills) terrain.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_ANGKOR_WAT_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Citizen] Population in all current cities when built. +1 [ICON_Housing] Housing in all cities. Luxury resources you own provide an [ICON_Amenities] Amenity to an extra city. [NEWLINE][NEWLINE]Must be built adjacent to an Aqueduct district.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Amenities] Amenities in each city in your civilization. +20% [ICON_Production] Production towards district projects in your cities. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_Movement] Movement and +1 sight range for all naval units.[NEWLINE][NEWLINE]Your cities get +50% [ICON_Production] Production toward Harbor districts and buildings for that district. Must be built on the Coast, adjacent to land and a Harbor district with a Lighthouse.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_GREAT_ZIMBABWE_DESCRIPTION" Language="en_US">
+			<Text>+1 [ICON_TradeRoute] Trade Route capacity[NEWLINE][NEWLINE]Your [ICON_TradeRoute] Trade Routes earn +1 [ICON_Gold] Gold for passing through your Trading Posts in both your own cities and foreign cities. Must be built adjacent to a Commercial Hub district with a Market.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HAGIA_SOPHIA_DESCRIPTION" Language="en_US">
+			<Text>Missionaries and Apostles can spread Religion 1 extra time. +2 [ICON_Science] Science to Holy Site districts for each building in the district. Must be built on flat land adjacent to a Holy Site district, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="en_US">
+			<Text>Triple yields from theming this building. Your Art Museums are automatically themed when filled. Must be built along a River.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" Language="en_US">
+			<Text>Grants 2 Apostles. Holy Sites provide +2 [ICON_Production] Production for each building in the district. Must be built on Woods adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MONT_ST_MICHEL_DESCRIPTION" Language="en_US">
+			<Text>Your religious units gain +10 [ICON_Religion] Religious Strength in Theological Combat. Holy Sites get +2 [ICON_Culture] Culture for each building in the district. Must be built on Floodplains or Marsh.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_RUHR_VALLEY_DESCRIPTION" Language="en_US">
+			<Text>+20% [ICON_Production] Production in this city. +1 [ICON_Production] Production for each Mine, Quarry, and Lumbermill in your territory when the improvement is adjacent to a river. Must be built along a River adjacent to an Industrial Zone district with a Factory.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>+50% [ICON_Tourism] Tourism pressure from all of your cities. +10 [ICON_Tourism] Tourism in each of your Theater Square districts with a Broadcast Center. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
+		</Replace>
+		
+		<!--Theming Bonus Text-->
+		<Row Tag="LOC_MAGIL_WW_THEMINGBONUS_MUSIC" Language="en_US">
+			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Music] music from different musicians.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_WW_THEMINGBONUS_HERMITAGE" Language="en_US">
+			<Text>Theming bonus tripling output when displaying [ICON_GreatWork_Landscape] art work from different artists.</Text>
+		</Row>
+		
+		<!--Ability Text-->
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_PREVIEWTEXT" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength from Mont St. Michel.</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_NAME" Language="en_US">
+			<Text>Mont St. Michel Theological Combat Bonus</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_NAME" Language="en_US">
+			<Text>Great Lighthouse Extra Vision</Text>
+		</Row>
+		<Row Tag="LOC_MAGIL_ABILITY_GREATLIGHTHOUSE_SIGHT_DESCRIPTION" Language="en_US">
+			<Text>+1 Sight Range</Text>
+		</Row>
 	</LocalizedText>
 </GameData>
