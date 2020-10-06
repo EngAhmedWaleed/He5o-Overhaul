@@ -3,9 +3,9 @@
 --Broadway
 DELETE FROM Building_GreatWorks WHERE BuildingType='BUILDING_BROADWAY';
 
-INSERT INTO Building_GreatWorks 
+INSERT INTO Building_GreatWorks
 	(BuildingType, GreatWorkSlotType, NumSlots)
-VALUES	
+VALUES
 	('BUILDING_BROADWAY', 'GREATWORKSLOT_MUSIC', '3');
 
 --Hermitage	

@@ -21,12 +21,18 @@ WHERE ModifierId LIKE 'CONTRATACION_FOREIGN%';
 
 --- Eiffel Tower
 -- +50% Tourism in this city.
-INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+INSERT INTO Modifiers
+	(ModifierId, ModifierType)
+VALUES
 	('EIFFELTOWER_ENHANCEDLATETOURISM', 'MODIFIER_SINGLE_CITY_ADJUST_TOURISM_LATE_ERAS');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+INSERT INTO ModifierArguments
+	(ModifierId, Name, Value)
+VALUES
 	('EIFFELTOWER_ENHANCEDLATETOURISM', 'Modifier', '50'),
 	('EIFFELTOWER_ENHANCEDLATETOURISM', 'MinimumEra', 'ERA_ANCIENT');
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES
+INSERT INTO BuildingModifiers
+	(BuildingType, ModifierId)
+VALUES
 	('BUILDING_EIFFEL_TOWER', 'EIFFELTOWER_ENHANCEDLATETOURISM');
 
 --- Kilwa Kisiwani
@@ -36,11 +42,17 @@ SET Value = '25'
 WHERE ModifierId LIKE 'KILWA_%'
 	AND Name = 'Amount' AND Value = '15';
 -- +3 Envoy Points
-INSERT INTO Modifiers (ModifierId, ModifierType) VALUES
+INSERT INTO Modifiers
+	(ModifierId, ModifierType)
+VALUES
 	('KILWA_INFLUENCEPOINTS', 'MODIFIER_PLAYER_ADJUST_INFLUENCE_POINTS_PER_TURN');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
+INSERT INTO ModifierArguments
+	(ModifierId, Name, Value)
+VALUES
 	('KILWA_INFLUENCEPOINTS', 'Amount', '3');
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES
+INSERT INTO BuildingModifiers
+	(BuildingType, ModifierId)
+VALUES
 	('BUILDING_KILWA_KISIWANI', 'KILWA_INFLUENCEPOINTS');
 
 --- Kotoku-in
@@ -48,7 +60,7 @@ INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES
 UPDATE ModifierArguments
 SET Value = 'UNIT_MISSIONARY'
 WHERE ModifierId = 'KOTOKU_GRANTMONKS'
-	AND Name = 'UnitType';	
+	AND Name = 'UnitType';
 -- +50% faith instead of +20%
 UPDATE ModifierArguments
 SET Value = '50'

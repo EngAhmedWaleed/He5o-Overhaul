@@ -18,7 +18,7 @@
 			<File>text.xml</File>
 		</UpdateText>
 		<UpdateDatabase id="Import_Edited_Parameters">
-			<File>sql/custom.sql</File>
+			<File>sql/wonders.sql</File>
 			<File>sql/imported/WorldWonders.sql</File>
 			<File>sql/imported/ThemingBonus.sql</File>
 			<File>sql/imported/DLCWorldWonders.sql</File>
@@ -28,10 +28,10 @@
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
-		<File>sql/custom.sql</File>
+		<File>sql/wonders.sql</File>
 		<File>sql/imported/WorldWonders.sql</File>
 		<File>sql/imported/ThemingBonus.sql</File>
-		<File>sql/imported/DLCWorldWonders.sql</File>
-		<File>sql/imported/RnFWorldWonders.sql</File>	
+		<File>sql/imported/DLCWorldWonders.sql</File>		
+		<File>sql/imported/RnFWorldWonders.sql</File>
 	</Files>
 </Mod>
