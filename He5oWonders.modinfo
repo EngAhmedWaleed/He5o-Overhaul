@@ -20,7 +20,6 @@
 		<UpdateDatabase id="Import_Edited_Parameters">
 			<File>sql/wonders.sql</File>
 			<File>sql/imported/WorldWonders.sql</File>
-			<File>sql/imported/ThemingBonus.sql</File>
 			<File>sql/imported/DLCWorldWonders.sql</File>
 			<File>sql/imported/RnFWorldWonders.sql</File>	
 		</UpdateDatabase>
@@ -30,7 +29,6 @@
 		<File>text.xml</File>
 		<File>sql/wonders.sql</File>
 		<File>sql/imported/WorldWonders.sql</File>
-		<File>sql/imported/ThemingBonus.sql</File>
 		<File>sql/imported/DLCWorldWonders.sql</File>		
 		<File>sql/imported/RnFWorldWonders.sql</File>
 	</Files>

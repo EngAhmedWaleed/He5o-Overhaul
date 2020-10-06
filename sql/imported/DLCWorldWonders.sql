@@ -1,5 +1,5 @@
 -- [Added] Remove Old Modifier from Barkal
-DELETE FROM BuildingModifiers WHERE ModifierId='JEBELBARKAL_GRANT_TWO_IRON';
+UPDATE Buildings SET RegionalRange='0' WHERE BuildingType='BUILDING_JEBEL_BARKAL';
 
 INSERT INTO BuildingModifiers
 	(BuildingType, ModifierId)

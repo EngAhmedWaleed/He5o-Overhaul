@@ -47,7 +47,7 @@
 			<Text>Missionaries and Apostles can spread Religion 1 extra time. +2 [ICON_Science] Science to Holy Site districts for each building in the district. Must be built on flat land adjacent to a Holy Site district, and you must have founded a Religion.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_HERMITAGE_DESCRIPTION" Language="en_US">
-			<Text>Triple yields from theming this building. Your Art Museums are automatically themed when filled. Must be built along a River.</Text>
+			<Text>Your Art Museums are automatically themed when filled. Must be built along a River.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MAHABODHI_TEMPLE_DESCRIPTION" Language="en_US">
 			<Text>Grants 2 Apostles. Holy Sites provide +2 [ICON_Production] Production for each building in the district. Must be built on Woods adjacent to a Holy Site district with a Temple, and you must have founded a Religion.</Text>
@@ -61,14 +61,6 @@
 		<Replace Tag="LOC_BUILDING_SYDNEY_OPERA_HOUSE_DESCRIPTION" Language="en_US">
 			<Text>+50% [ICON_Tourism] Tourism pressure from all of your cities. +10 [ICON_Tourism] Tourism in each of your Theater Square districts with a Broadcast Center. Must be built on the Coast, adjacent to land and a Harbor district.</Text>
 		</Replace>
-		
-		<!--Theming Bonus Text-->
-		<Row Tag="LOC_MAGIL_WW_THEMINGBONUS_MUSIC" Language="en_US">
-			<Text>Theming bonus increasing output by 50% when displaying [ICON_GreatWork_Music] music from different musicians.</Text>
-		</Row>
-		<Row Tag="LOC_MAGIL_WW_THEMINGBONUS_HERMITAGE" Language="en_US">
-			<Text>Theming bonus tripling output when displaying [ICON_GreatWork_Landscape] art work from different artists.</Text>
-		</Row>
 		
 		<!--Ability Text-->
 		<Row Tag="LOC_MAGIL_ABILITY_MONTSTMICHEL_BONUS_PREVIEWTEXT" Language="en_US">

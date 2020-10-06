@@ -140,9 +140,6 @@ VALUES
 	('MAGIL_JEBEL_BARKAL_FAITH_FROM_UNITS', 'UnitProductionPercent', '25', NULL, NULL);
 
 --Attaching Modifiers to Buildings
-
-UPDATE BuildingModifiers SET BuildingType='BUILDING_HERMITAGE' WHERE BuildingType='BUILDING_BROADWAY' AND ModifierId='BROADWAY_ADDCULTUREYIELD';
-
 DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_GREAT_ZIMBABWE';
 DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_MONT_ST_MICHEL';
 DELETE FROM BuildingModifiers WHERE BuildingType='BUILDING_RUHR_VALLEY';
