@@ -5,19 +5,6 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
 	("BETTER_LAKE_FOOD", "Amount", "1"); 
 INSERT INTO GameModifiers (ModifierId) VALUES ("BETTER_LAKE_FOOD");
 
--- -- Lakes +2 Food/+1 Gold Base
--- INSERT INTO Modifiers (ModifierId, ModifierType) VALUES ("BETTER_LAKE_FOOD", "MODIFIER_ALL_CITIES_ATTACH_MODIFIER"); 
--- INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ("BETTER_LAKE_FOOD", "ModifierId", "HUEY_LAKE_FOOD_MODIFIER"); 
--- INSERT INTO GameModifiers (ModifierId) VALUES ("BETTER_LAKE_FOOD"); 
-
---- Temporarily
--- Unit prerequisite stuff, only missionaries for Stonehenge
-INSERT INTO Unit_BuildingPrereqs (Unit,	PrereqBuilding) VALUES	
-	('UNIT_MISSIONARY', 'BUILDING_STONEHENGE');
--- Global Apadana
-UPDATE Modifiers Set SubjectRequirementSetId=NULL WHERE ModifierId="APADANA_AWARD_TWO_INFLUENCE_TOKEN";
---- Temporarily
-
 --Make battering ram upgrade to siege tower
 DELETE FROM UnitUpgrades WHERE Unit='UNIT_SIEGE_TOWER';
 UPDATE UnitUpgrades SET UpgradeUnit='UNIT_SIEGE_TOWER' WHERE Unit='UNIT_BATTERING_RAM';
@@ -47,3 +34,9 @@ UPDATE GlobalParameters SET Value=2000 WHERE Name='EMERGENCY_GOLD_PER_MEMBER_PER
 -- Steel Tech looks very full, so oil is shift one tech down "No units needs it, so np".
 UPDATE Resources SET PrereqTech='TECH_COMBUSTION' WHERE ResourceType='RESOURCE_OIL';
 UPDATE Improvements SET PrereqTech='TECH_COMBUSTION' WHERE ImprovementType='IMPROVEMENT_OIL_WELL';
+
+----- DEBUGING
+--INSERT INTO Building_YieldChanges (BuildingType, YieldType, YieldChange) VALUES
+--('BUILDING_MONUMENT','YIELD_FOOD','1000'),
+--('BUILDING_MONUMENT','YIELD_PRODUCTION','1000'),
+--('BUILDING_MONUMENT','YIELD_GOLD','1000');
