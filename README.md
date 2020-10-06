@@ -11,7 +11,7 @@
 
 * Eiffel Tower: (Added) +50% Tourism pressure from this city.
 
-* Estadio de Maracanã: All of your cities gain +20% Production towards district projects. Increased amenities provided to all cities to 3.
+* Estadio de Maracanã: All of your cities gain +50% Production towards district projects. Increased amenities provided to all cities to 3.
 
 * Great Lighthouse: (Added) +1 sight range for naval units. +50% Production in all of your cities towards Harbor districts and buildings in that district.
 

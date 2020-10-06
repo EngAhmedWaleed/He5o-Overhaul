@@ -35,7 +35,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_BUILDING_ESTADIO_DO_MARACANA_DESCRIPTION" Language="en_US">
-			<Text>+3 [ICON_Amenities] Amenities in each city in your civilization. +20% [ICON_Production] Production towards district projects in your cities. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
+			<Text>+3 [ICON_Amenities] Amenities in each city in your civilization. +50% [ICON_Production] Production towards district projects in your cities. Must be built on flat land adjacent to an Entertainment Complex district with a Stadium.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_GREAT_LIGHTHOUSE_DESCRIPTION" Language="en_US">
 			<Text>+1 [ICON_Movement] Movement and +1 sight range for all naval units.[NEWLINE][NEWLINE]Your cities get +50% [ICON_Production] Production toward Harbor districts and buildings for that district. Must be built on the Coast, adjacent to land and a Harbor district with a Lighthouse.</Text>
