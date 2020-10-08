@@ -33,12 +33,6 @@
 		</Criteria>
 	</ActionCriteria>
 	
-	<Files>
-		<File>DatabaseUpdates.sql</File>
-		<File>Clean Loading Screen.xml</File>
-		<File>Clean Loading Screen Bonus.xml</File>
-	</Files>
-	
 	<FrontEndActions>
 		<UpdateText id="Pre-game_Text_Updates">
 			<File>Clean Loading Screen.xml</File>
@@ -49,6 +43,15 @@
 	</FrontEndActions>
 	
 	<InGameActions>
+		<ReplaceUIScript id="VisibilityImportant_DiplomacyRibbon">
+			<Properties>
+				<LuaContext>DiplomacyRibbon</LuaContext>
+				<LuaReplace>Assets/UI/DiplomacyRibbon_Visibility.lua</LuaReplace>
+			</Properties>
+		</ReplaceUIScript>
+	    <ImportFiles id="VisibilityImportant">
+			<File>Assets/UI/DiplomacyRibbon_Visibility.lua</File>
+		</ImportFiles>
 		<UpdateText id="Text_Updates">
 			<File>Clean Loading Screen.xml</File>
 		</UpdateText>
@@ -59,5 +62,12 @@
 			<File>DatabaseUpdates.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
+	
+	<Files>
+		<File>DatabaseUpdates.sql</File>
+		<File>Clean Loading Screen.xml</File>
+		<File>Clean Loading Screen Bonus.xml</File>
+		<File>Assets/UI/DiplomacyRibbon_Visibility.lua</File>
+	</Files>
 	
 </Mod>

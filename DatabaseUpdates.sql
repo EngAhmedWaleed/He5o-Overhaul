@@ -29,7 +29,7 @@ UPDATE Projects SET
 WHERE ProjectType ='PROJECT_BUILD_THERMONUCLEAR_DEVICE';
 
 --Better Emergency Rewards
-UPDATE GlobalParameters SET Value=2000 WHERE Name='EMERGENCY_GOLD_PER_MEMBER_PER_ERA';
+UPDATE GlobalParameters SET Value=1000 WHERE Name='EMERGENCY_GOLD_PER_MEMBER_PER_ERA';
 
 -- Steel Tech looks very full, so oil is shift one tech down "No units needs it, so np".
 UPDATE Resources SET PrereqTech='TECH_COMBUSTION' WHERE ResourceType='RESOURCE_OIL';
