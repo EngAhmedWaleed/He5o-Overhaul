@@ -2,7 +2,7 @@
 UPDATE ModifierArguments SET Value='10' WHERE ModifierId='ITINERANT_PREACHERS_SPREAD_DISTANCE';
 
 -- Merge
-UPDATE BuildingModifiers SET BeliefType='BELIEF_MISSIONARY_ZEAL' WHERE ModifierId LIKE 'HOLY_ORDER_%';
+UPDATE BeliefModifiers SET BeliefType='BELIEF_MISSIONARY_ZEAL' WHERE ModifierId LIKE 'HOLY_ORDER_%';
 UPDATE ModifierArguments SET Value='25' WHERE ModifierId LIKE 'HOLY_ORDER_%' AND Name='Amount';
 
 -- New Holy Order: Buy Enchampent buildings with faith
@@ -42,7 +42,7 @@ UPDATE ModifierArguments SET Value='100' WHERE ModifierId='SCRIPTURE_SPEAD_STREN
 
 
 -- Merge
-UPDATE BuildingModifiers SET BeliefType='BELIEF_RELIGIOUS_COLONIZATION' WHERE ModifierId LIKE 'BURIAL_GROUNDS_%';
+UPDATE BeliefModifiers SET BeliefType='BELIEF_RELIGIOUS_COLONIZATION' WHERE ModifierId LIKE 'BURIAL_GROUNDS_%';
 
 
 -- New Burial Grounds: +5 Theological Combat
@@ -66,6 +66,13 @@ VALUES	('P0K_MILITARISTIC_SECT_COMBAT_BONUS',		'MODIFIER_UNIT_ADJUST_COMBAT_STRE
 INSERT INTO ModifierArguments 
 		(ModifierId,								Name,		Value)
 VALUES	('P0K_MILITARISTIC_SECT_COMBAT_BONUS',		'Amount',	5);
+
+INSERT INTO RequirementSets
+		(RequirementSetId,				RequirementSetType)
+VALUES	('P0K_RELIGION_RELIGIOUS_UNIT',	'REQUIREMENTSET_TEST_ALL');
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,				RequirementId)
+VALUES	('P0K_RELIGION_RELIGIOUS_UNIT',	'REQUIRES_UNIT_IS_RELIGIOUS_ALL');
 
 INSERT INTO Modifiers 
 		(ModifierId,													ModifierType,														SubjectRequirementSetId) 
