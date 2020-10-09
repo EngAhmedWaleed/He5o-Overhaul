@@ -1,0 +1,82 @@
+-- Itinerant Preachers now causes a Religion to spread 100% father away instead of only 30%
+UPDATE ModifierArguments SET Value='10' WHERE ModifierId='ITINERANT_PREACHERS_SPREAD_DISTANCE';
+
+-- Merge
+UPDATE BuildingModifiers SET BeliefType='BELIEF_MISSIONARY_ZEAL' WHERE ModifierId LIKE 'HOLY_ORDER_%';
+UPDATE ModifierArguments SET Value='25' WHERE ModifierId LIKE 'HOLY_ORDER_%' AND Name='Amount';
+
+-- New Holy Order: Buy Enchampent buildings with faith
+INSERT INTO Modifiers
+	(ModifierId , ModifierType, SubjectRequirementSetId)
+VALUES
+	('HOLY_ORDER_BUY_BUILDINGS' , 'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER', 'PLAYER_FOUNDED_RELIGION_REQUIREMENTS'),
+	('HOLY_ORDER_BUY_BUILDINGS_MODIFIER' , 'MODIFIER_PLAYER_CITIES_ENABLE_BUILDING_FAITH_PURCHASE', NULL);
+INSERT INTO ModifierArguments
+	(ModifierId , Name , Value)
+VALUES
+	('HOLY_ORDER_BUY_BUILDINGS' , 'ModifierId' , 'HOLY_ORDER_BUY_BUILDINGS_MODIFIER'),
+	('HOLY_ORDER_BUY_BUILDINGS_MODIFIER' , 'DistrictType' , 'DISTRICT_ENCAMPMENT');
+INSERT INTO BeliefModifiers
+	(BeliefType, ModifierId)
+VALUES
+	('BELIEF_HOLY_ORDER', 'HOLY_ORDER_BUY_BUILDINGS');
+
+
+-- if they are going to ide make it worth! Martyr
+INSERT INTO Modifiers
+	(ModifierId , ModifierType, SubjectRequirementSetId)
+VALUES
+	('MODIFIER_BELIEF_ISOLASION_MARTYR' , 'MODIFIER_ALL_CITIES_ATTACH_MODIFIER', 'CITY_FOLLOWS_RELIGION_REQUIREMENTS');
+INSERT INTO ModifierArguments
+	(ModifierId , Name , Value)
+VALUES
+	('MODIFIER_BELIEF_ISOLASION_MARTYR' , 'ModifierId' , 'MONT_ST_MICHEL_GRANT_MARTYR');
+INSERT INTO BeliefModifiers
+	(BeliefType, ModifierId)
+VALUES
+	('BELIEF_MONASTIC_ISOLATION', 'MODIFIER_BELIEF_ISOLASION_MARTYR');
+
+
+-- big buff for Scripture
+UPDATE ModifierArguments SET Value='100' WHERE ModifierId='SCRIPTURE_SPEAD_STRENGTH' AND Name LIKE '%SpreadMultiplier%';
+
+
+-- Merge
+UPDATE BuildingModifiers SET BeliefType='BELIEF_RELIGIOUS_COLONIZATION' WHERE ModifierId LIKE 'BURIAL_GROUNDS_%';
+
+
+-- New Burial Grounds: +5 Theological Combat
+INSERT INTO Types 
+		(Type,								Kind)
+VALUES	('ABILITY_P0K_MILITARISTIC_SECT',	'KIND_ABILITY');
+INSERT INTO TypeTags
+		(Type,								Tag)
+VALUES	('ABILITY_P0K_MILITARISTIC_SECT',	'CLASS_RELIGIOUS_ALL');
+
+INSERT INTO UnitAbilities
+		(UnitAbilityType,					Name,										Description,										Inactive,	ShowFloatTextWhenEarned,	Permanent)
+VALUES	('ABILITY_P0K_MILITARISTIC_SECT',	'LOC_ABILITY_P0K_MILITARISTIC_SECT_NAME',	'LOC_ABILITY_P0K_MILITARISTIC_SECT_DESCRIPTION',	1,			0,							1);
+INSERT INTO UnitAbilityModifiers
+		(UnitAbilityType,					ModifierId)
+VALUES	('ABILITY_P0K_MILITARISTIC_SECT',	'P0K_MILITARISTIC_SECT_COMBAT_BONUS');
+
+INSERT INTO Modifiers 
+		(ModifierId,								ModifierType)
+VALUES	('P0K_MILITARISTIC_SECT_COMBAT_BONUS',		'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH');
+INSERT INTO ModifierArguments 
+		(ModifierId,								Name,		Value)
+VALUES	('P0K_MILITARISTIC_SECT_COMBAT_BONUS',		'Amount',	5);
+
+INSERT INTO Modifiers 
+		(ModifierId,													ModifierType,														SubjectRequirementSetId) 
+VALUES	('P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT',					'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',								'PLAYER_FOUNDED_RELIGION_REQUIREMENTS'),
+		('P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT_MODIFIER',		'MODIFIER_PLAYER_UNITS_GRANT_ABILITY',								'P0K_RELIGION_RELIGIOUS_UNIT');
+INSERT INTO ModifierArguments 
+		(ModifierId,													Name,			Value)
+VALUES	('P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT',					'ModifierId',	'P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT_MODIFIER'),
+		('P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT_MODIFIER',		'AbilityType',	'ABILITY_P0K_MILITARISTIC_SECT');
+
+INSERT INTO BeliefModifiers 
+		(BeliefType,						ModifierId)
+VALUES	('BELIEF_BURIAL_GROUNDS',	'P0K_MILITARISTIC_SECT_RELIGIOUS_UNIT_COMBAT');
+		

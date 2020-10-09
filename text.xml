@@ -6,7 +6,7 @@
 			<Text>All world wonders provide +8 [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION" Language="en_US">
-			<Text>All Apostles you create gain the Martyr ability.[NEWLINE]Relics have triple yield of both [ICON_Faith] Faith and [ICON_Tourism] Tourism.</Text>
+			<Text>Awards 1 [ICON_GreatWork_Relic] Relic (only if you have a slot availabe).[NEWLINE]Relics have triple yield of both [ICON_Faith] Faith and [ICON_Tourism] Tourism.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION" Language="en_US">
 			<Text>Holy Site Districts provide +2 [ICON_Housing] Housing.[NEWLINE]Shrines and Temples each provide +1 [ICON_Housing] Housing.</Text>
@@ -43,10 +43,45 @@
 			<Text>Allows construction of Mosques (+6 [ICON_Faith] Faith). Missionaries and Apostles +1 Spread.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION" Language="en_US">
-			<Text>Allows construction of Synagogues (+6 [ICON_Faith] Faith).</Text>
+			<Text>Allows construction of Synagogues (+6 [ICON_Faith] Faith and +2 additional [ICON_Faith] Faith for each era).</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_STUPA_DESCRIPTION" Language="en_US">
 			<Text>Allows construction of Stupas (+4 [ICON_Faith] Faith, +2 [ICON_Amenities] Amenity).</Text>
+		</Replace>
+		<!--Founder-->
+		<Replace Tag="LOC_BELIEF_PILGRIMAGE_DESCRIPTION" Language="en_US">
+			<Text>+3 [ICON_Faith] Faith for each city following this Religion.</Text>
+		</Replace>
+		<!--Enhancer-->
+		<Replace Tag="LOC_BELIEF_ITINERANT_PREACHERS_DESCRIPTION" Language="en_US">
+			<Text>Religion spreads to cities 100% further away.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MISSIONARY_ZEAL_DESCRIPTION" Language="en_US">
+			<Text>Missionaries and Apostles are 25% cheaper to purchase.[NEWLINE]Religious units ignore [ICON_Movement] Movement costs of terrains.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MONASTIC_ISOLATION_DESCRIPTION" Language="en_US">
+			<Text>Religion's pressure never drops due to losses in Theological Combat. Apostles gain the Martyr ability.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_SCRIPTURE_DESCRIPTION" Language="en_US">
+			<Text>Religious spread from adjacent city pressure is 100% stronger. Boosted to 200% once Printing is researched.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_HOLY_ORDER_DESCRIPTION" Language="en_US">
+			<Text>May purchase Encampment district buildings with [ICON_Faith] Faith.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION" Language="en_US">
+			<Text>Culture Bomb adjacent tiles when completing a Holy Site.[NEWLINE]Cities start with this Religion in place if it is majority.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_NAME" Language="en_US">
+			<Text>Militaristic Sect</Text>
+		</Replace>
+		<Row Tag="LOC_ABILITY_P0K_MILITARISTIC_SECT_NAME" Language="en_US">
+			<Text>Militaristic Sect</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_P0K_MILITARISTIC_SECT_DESCRIPTION" Language="en_US">
+			<Text>+5 [ICON_Strength] Combat Strength from Militaristic Sect.</Text>
+		</Row>
+		<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_DESCRIPTION" Language="en_US">
+			<Text>Religious units receive +5 [ICON_Strength] Combat Strength in Theological Combat.</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

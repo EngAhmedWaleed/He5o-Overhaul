@@ -1,20 +1,24 @@
 -- Divine Inspiration yield increased
 UPDATE ModifierArguments SET Value='8' WHERE ModifierId='DIVINE_INSPIRATION_WONDER_FAITH_MODIFIER' AND Name='Amount';
 
-
 -- Reliquaries also provides a relic
+INSERT INTO Modifiers (ModifierId , ModifierType , SubjectRequirementSetId, RunOnce , Permanent)
+	VALUES ('RELIQUARIES_GRANT_RELIC', 'MODIFIER_PLAYER_GRANT_RELIC', 'BUILDING_IS_PALACE', 1, 1);	
+INSERT INTO ModifierArguments (ModifierId , Name , Value)
+	VALUES ('RELIQUARIES_GRANT_RELIC', 'Amount' , '1');
+
 INSERT INTO Modifiers
 	(ModifierId , ModifierType, SubjectRequirementSetId)
 VALUES
-	('MODIFIER_BELIEF_RELIQUARIES_MICHEAL' , 'MODIFIER_ALL_CITIES_ATTACH_MODIFIER', 'CITY_FOLLOWS_RELIGION_HAS_TEMPLE');
+	('MODIFIER_BELIEF_RELIQUARIES_RELIC' , 'MODIFIER_ALL_CITIES_ATTACH_MODIFIER', 'CITY_FOLLOWS_RELIGION_REQUIREMENTS');
 INSERT INTO ModifierArguments
 	(ModifierId , Name , Value)
 VALUES
-	('MODIFIER_BELIEF_RELIQUARIES_MICHEAL' , 'ModifierId' , 'MONT_ST_MICHEL_GRANT_MARTYR');
+	('MODIFIER_BELIEF_RELIQUARIES_RELIC' , 'ModifierId' , 'RELIQUARIES_GRANT_RELIC');
 INSERT INTO BeliefModifiers
 	(BeliefType, ModifierId)
 VALUES
-	('BELIEF_RELIQUARIES', 'MODIFIER_BELIEF_RELIQUARIES_MICHEAL');
+	('BELIEF_RELIQUARIES', 'MODIFIER_BELIEF_RELIQUARIES_RELIC');
 	
 
 -- Religious Community +2 Housing for Holysites
