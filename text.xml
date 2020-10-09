@@ -69,7 +69,7 @@
 			<Text>May purchase Encampment district buildings with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIGIOUS_COLONIZATION_DESCRIPTION" Language="en_US">
-			<Text>Culture Bomb adjacent tiles when completing a Holy Site.[NEWLINE]Cities start with this Religion in place if it is majority.</Text>
+			<Text>Cities start with this Religion in place if it is majority.[NEWLINE]Culture Bomb adjacent tiles when completing a Holy Site.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_BURIAL_GROUNDS_NAME" Language="en_US">
 			<Text>Militaristic Sect</Text>
