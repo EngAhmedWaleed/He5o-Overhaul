@@ -1,17 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!--Follower-->
 		<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION" Language="en_US">
 			<Text>All world wonders provide +8 [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION" Language="en_US">
-			<Text>Awards 1 [ICON_GreatWork_Relic] Relic. Relics have triple yield of both [ICON_Faith] Faith and [ICON_Tourism] Tourism.</Text>
+			<Text>All Apostles you create gain the Martyr ability.[NEWLINE]Relics have triple yield of both [ICON_Faith] Faith and [ICON_Tourism] Tourism.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_RELIGIOUS_COMMUNITY_DESCRIPTION" Language="en_US">
+			<Text>Holy Site Districts provide +2 [ICON_Housing] Housing.[NEWLINE]Shrines and Temples each provide +1 [ICON_Housing] Housing.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_ZEN_MEDITATION_DESCRIPTION" Language="en_US">
-			<Text>+1 [ICON_Amenities] Amenity in cities with a specialty district. +2 [ICON_Amenities] Amenity in cities with 3 specialty districts.</Text>
+			<Text>+1 [ICON_Amenities] Amenity in cities with a specialty district.[NEWLINE]+2 [ICON_Amenities] Amenity in cities with 3 specialty districts.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_WARRIOR_MONKS_DESCRIPTION" Language="en_US">
-			<Text>Allows spending [ICON_Faith] Faith to train Warrior Monks.[NEW_LINE]May only be purchased in a city with a Temple in its Holy Site.</Text>
+			<Text>Allows spending [ICON_Faith] Faith to train Warrior Monks.[NEWLINE]May only be purchased in a city with a Temple in its Holy Site.</Text>
+		</Replace>
+		<!--Worship-->
+		<Replace Tag="LOC_BELIEF_MOSQUE_NAME" Language="en_US">
+			<Text>Mosque (Free)</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_CATHEDRAL_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Cathedrals (+4 [ICON_Faith] Faith, 1 Great Work slots which can be filled by anything).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MEETING_HOUSE_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Meeting Houses (+4 [ICON_Faith] Faith, +1 [ICON_Production] Production and +1 additional [ICON_Production] Production for each era).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_PAGODA_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Pagodas (+4 [ICON_Faith] Faith, +2 [ICON_Housing] Housing).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_WAT_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Wats (+4 [ICON_Faith] Faith, +1 [ICON_Science] Science and +1 additional [ICON_Science] Science for each era).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_DAR_E_MEHR_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Dar-e Mehrs (+4 [ICON_Faith] Faith, +1 [ICON_CULTURE] Culture and +1 additional [ICON_CULTURE] Culture for each era).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_GURDWARA_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Gurdwaras (+4 [ICON_Faith] Faith, +1 [ICON_Food] Food and +1 additional [ICON_Food] Food for each era).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_MOSQUE_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Mosques (+6 [ICON_Faith] Faith). Missionaries and Apostles +1 Spread.</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_SYNAGOGUE_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Synagogues (+6 [ICON_Faith] Faith).</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_STUPA_DESCRIPTION" Language="en_US">
+			<Text>Allows construction of Stupas (+4 [ICON_Faith] Faith, +2 [ICON_Amenities] Amenity).</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
