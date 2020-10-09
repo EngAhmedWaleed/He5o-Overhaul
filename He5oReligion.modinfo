@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="55ee5e10-265e-4af2-8c30-5b05f3b75f75" version="1">
+	<Properties>
+		<Name>He5oReligion (1.0)</Name>
+		<Description>This mod reworks the existing Religion beliefs.</Description>
+		<Teaser>A humble approach towards a better game.</Teaser>
+		<Authors>Ahmed Waleed</Authors>
+		<Email>ahmedwaleed@csed22.com</Email>
+		<SpecialThanks>Better Balanced Game</SpecialThanks>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Dependencies>
+		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
+	</Dependencies>
+	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
+	<InGameActions>
+		<UpdateText id="Text_Updates">
+			<File>text.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="Import_Edited_Parameters">
+			<File>sql/BBG.sql</File>
+			<File>sql/Enhancer.sql</File>
+			<File>sql/Follower.sql</File>
+			<File>sql/Founder.sql</File>
+			<File>sql/Worship.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<!-- defines file dependencies -->
+	<Files>
+		<File>text.xml</File>
+		<File>sql/BBG.sql</File>
+		<File>sql/Enhancer.sql</File>
+		<File>sql/Follower.sql</File>
+		<File>sql/Founder.sql</File>
+		<File>sql/Worship.sql</File>
+	</Files>
+</Mod>
