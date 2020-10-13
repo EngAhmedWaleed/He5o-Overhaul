@@ -1,5 +1,5 @@
--- Divine Inspiration yield increased
-UPDATE ModifierArguments SET Value='8' WHERE ModifierId='DIVINE_INSPIRATION_WONDER_FAITH_MODIFIER' AND Name='Amount';
+-- Divine Inspiration yield increased -- Reverted
+-- UPDATE ModifierArguments SET Value='8' WHERE ModifierId='DIVINE_INSPIRATION_WONDER_FAITH_MODIFIER' AND Name='Amount';
 
 -- Reliquaries also provides a relic
 INSERT INTO Modifiers (ModifierId , ModifierType , SubjectRequirementSetId, RunOnce , Permanent)

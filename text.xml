@@ -3,7 +3,7 @@
 	<LocalizedText>
 		<!--Follower-->
 		<Replace Tag="LOC_BELIEF_DIVINE_INSPIRATION_DESCRIPTION" Language="en_US">
-			<Text>All world wonders provide +8 [ICON_Faith] Faith.</Text>
+			<Text>All world wonders provide +6 [ICON_Faith] Faith.</Text>
 		</Replace>
 		<Replace Tag="LOC_BELIEF_RELIQUARIES_DESCRIPTION" Language="en_US">
 			<Text>Awards 1 [ICON_GreatWork_Relic] Relic (only if you have a slot availabe).[NEWLINE]Relics have triple yield of both [ICON_Faith] Faith and [ICON_Tourism] Tourism.</Text>
