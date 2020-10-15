@@ -18,6 +18,7 @@
 			<File>text.xml</File>
 		</UpdateText>
 		<UpdateDatabase id="Import_Edited_Parameters">
+			<File>sql/BBG.sql</File>
 			<File>sql/wonders.sql</File>
 			<File>sql/imported/WorldWonders.sql</File>
 			<File>sql/imported/DLCWorldWonders.sql</File>
@@ -26,6 +27,7 @@
 	</InGameActions>
 	<!-- defines file dependencies -->
 	<Files>
+		<File>sql/BBG.sql</File>
 		<File>text.xml</File>
 		<File>sql/wonders.sql</File>
 		<File>sql/imported/WorldWonders.sql</File>
