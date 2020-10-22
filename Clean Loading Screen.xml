@@ -201,7 +201,7 @@
 			<Text>Spanish unique Renaissance era unit that replaces the Musketman.[NEWLINE]+10 [ICON_Strength] Combat Strength when there is a religious unit in the same hex.[NEWLINE][NEWLINE]If this unit captures a city or is adjacent to a city when it is captured, the city will automatically adopt the Conquistador player's Religion as the dominant Religion.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSION_DESCRIPTION">
-			<Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith.[NEWLINE]+2 [ICON_Faith] Faith if on a different continent than your [ICON_Capital] Capital.[NEWLINE]+2 [ICON_Science] Science if built next to a Campus district.[NEWLINE]+2 [ICON_Science] Science at The Enlightenment.[NEWLINE]+1 [ICON_Housing] Housing at Civil Service.</Text>
+			<Text>Unlocks the Builder ability to construct a Mission, unique to Spain.[NEWLINE][NEWLINE]+2 [ICON_Faith] Faith.[NEWLINE]+1 [ICON_HOUSING] Housing if built on home continent.[NEWLINE]+2 [ICON_Faith] Faith if on a different continent than your [ICON_Capital] Capital.[NEWLINE]+2 [ICON_Science] Science if built next to a Campus district. +2 Science at The Enlightenment.[NEWLINE][NEWLINE]Cannot be built next to another Mission.</Text>
 		</Replace>
 		<!--Poundmaker: Cree-->
 		<Replace Tag="LOC_LEADER_POUNDMAKER_ABILITY_DESCRIPTION">

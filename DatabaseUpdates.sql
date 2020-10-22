@@ -1,3 +1,4 @@
+-- Governors moments gives more era score.
 UPDATE Moments SET EraScore = 4 WHERE EraScore = 1 AND MomentType LIKE "%GOVERNOR%";
 
 -- Lakes +2 Food/+1 Gold Base
@@ -10,10 +11,6 @@ INSERT INTO GameModifiers (ModifierId) VALUES ("BETTER_LAKE_FOOD");
 --Make battering ram upgrade to siege tower
 DELETE FROM UnitUpgrades WHERE Unit='UNIT_SIEGE_TOWER';
 UPDATE UnitUpgrades SET UpgradeUnit='UNIT_SIEGE_TOWER' WHERE Unit='UNIT_BATTERING_RAM';
-
---Make battering ram and siege tower obsolete in the technology tree
-UPDATE Units SET ObsoleteTech='TECH_INDUSTRIALIZATION', ObsoleteCivic=NULL WHERE UnitType='UNIT_SIEGE_TOWER';
-UPDATE Units SET ObsoleteTech='TECH_SIEGE_TACTICS' 	  , ObsoleteCivic=NULL WHERE UnitType='UNIT_BATTERING_RAM';
 
 --Increase spawn destance buffer
 UPDATE GlobalParameters SET Value=ROUND(Value*1.3) WHERE Name LIKE 'START_DISTANCE_M%' AND Name LIKE '%_CIVILIZATION';
@@ -32,10 +29,6 @@ WHERE ProjectType ='PROJECT_BUILD_THERMONUCLEAR_DEVICE';
 
 --Better Emergency Rewards
 UPDATE GlobalParameters SET Value=1000 WHERE Name='EMERGENCY_GOLD_PER_MEMBER_PER_ERA';
-
--- Steel Tech looks very full, so oil is shift one tech down "No units needs it, so np".
-UPDATE Resources SET PrereqTech='TECH_COMBUSTION' WHERE ResourceType='RESOURCE_OIL';
-UPDATE Improvements SET PrereqTech='TECH_COMBUSTION' WHERE ImprovementType='IMPROVEMENT_OIL_WELL';
 
 ----- DEBUGING
 --INSERT INTO Building_YieldChanges (BuildingType, YieldType, YieldChange) VALUES
