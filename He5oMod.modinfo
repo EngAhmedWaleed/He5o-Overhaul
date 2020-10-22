@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="05bfdbe1-661b-4fd7-b673-76c3fda56378" version="1.3">
+<Mod id="05bfdbe1-661b-4fd7-b673-76c3fda56378" version="1">
 
 	<Properties>
-		<Name>He5oMod</Name>
+		<Name>[COLOR_FLOAT_GOLD]He5oMod[ENDCOLOR]</Name>
 		<Teaser>A humble approach towards a better game.</Teaser>
-		<Description>This little mod added a bit of motivation so players have to reconsider joining the emergencies [COLOR_Green](Better Emergency Rewards)[ENDCOLOR].[NEWLINE][NEWLINE]Made nukes harder to obtain, so the other players have a better chance[NEWLINE]to react [COLOR_Green](Later Nukes)[ENDCOLOR].[NEWLINE][NEWLINE]Imported in-game changes mod to balance from [COLOR_Green](Civ Players League)[ENDCOLOR], so[NEWLINE]no more “crush all of your enemies beneath the wheels of your chariot” tactic thing with Scythia.[NEWLINE][NEWLINE]And Last but not least, organized the game text data in order to have a [COLOR_Green](Clean Loading Screen)[ENDCOLOR].</Description>
+		<Description>This mod is meant to be a place for all utilted little changes.[NEWLINE][NEWLINE]For further details please check: https://gaming.csed22.com/civ-vi/</Description>
 		<Authors>Ahmed Waleed</Authors>
 		<Email>ahmedwaleed@csed22.com</Email>
 		<SpecialThanks>civilization.fandom.com</SpecialThanks>
-		<AffectsSavedGames>0</AffectsSavedGames>
 		<CompatibleVersions>1.2,2.0</CompatibleVersions>
 	</Properties>
 	
@@ -24,7 +23,7 @@
 			<ModInUse>E2749E9A-8056-45CD-901B-C368C8E83DEB</ModInUse>
 			<!--dlc_nubia-->
 			<ModInUse>643EA320-8E1A-4CF1-A01C-00D88DDD131A</ModInUse>
-			<!--dlc_indo_khmer-->		
+			<!--dlc_indo_khmer-->
 			<ModInUse>1F367231-A040-4793-BDBB-088816853683</ModInUse>
 			<!--dlc_poland-->
 			<ModInUse>3809975F-263F-40A2-A747-8BFB171D821A</ModInUse>

@@ -1,3 +1,5 @@
+UPDATE Moments SET EraScore = 4 WHERE EraScore = 1 AND MomentType LIKE "%GOVERNOR%";
+
 -- Lakes +2 Food/+1 Gold Base
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES ("BETTER_LAKE_FOOD", "MODIFIER_GAME_ADJUST_PLOT_YIELD", "FOODHUEY_PLOT_IS_LAKE_REQUIREMENTS"); 
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES 

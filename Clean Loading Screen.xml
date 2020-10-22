@@ -52,7 +52,7 @@
 		</Replace>
 		<!--Gandhi: India-->
 		<Replace Tag="LOC_TRAIT_LEADER_SATYAGRAHA_DESCRIPTION">
-			<Text>Settlers and Builders receive +1 [ICON_Movement] Movement.[NEWLINE][NEWLINE]Grants an extra belief when founding a Religion.[NEWLINE][NEWLINE]+50% [ICON_PRODUCTION] Production towards Holy Site buildings.[NEWLINE][NEWLINE]+5 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
+			<Text>Settlers and Builders receive +1 [ICON_Movement] Movement.[NEWLINE][NEWLINE]Grants an extra belief when founding a Religion.[NEWLINE][NEWLINE]+5 [ICON_Faith] Faith for each civilization (including India) they have met that has founded a Religion and is not currently at war.[NEWLINE][NEWLINE]Opposing civilizations receive double the war weariness for fighting against Gandhi.</Text>
 		</Replace>
 		<!--Genghis: Mongolia-->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_MONGOLIAN_ORTOO_DESCRIPTION">
@@ -89,7 +89,7 @@
 		</Replace>
 		<!--Harald: Norway-->
 		<Replace Tag="LOC_TRAIT_LEADER_THUNDERBOLT_DESCRIPTION">
-			<Text>All naval melee units get +50% [ICON_PRODUCTION] Production and can raid the coast.[NEWLINE][NEWLINE]All Holy Site districts and their buildings get +50% [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Holy Sites get standard adjacency from coastal tiles and Harbors get +2 [ICON_GOLD] when next to a Holy Site.</Text>
+			<Text>All naval melee units get +50% [ICON_PRODUCTION] Production and can raid the coast.[NEWLINE][NEWLINE]Holy Sites get standard adjacency from coastal tiles and Harbors get +2 [ICON_GOLD] when next to a Holy Site.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_EARLY_OCEAN_NAVIGATION_DESCRIPTION">
 			<Text>Units gain the ability to enter Ocean tiles after researching the Shipbuilding technology.[NEWLINE][NEWLINE]Naval melee units heal in neutral territory.[NEWLINE][NEWLINE]Units ignore additional [ICON_Movement] Movement costs from embarking and disembarking.</Text>
@@ -173,7 +173,7 @@
 		</Replace>
 		<!--Pericles: Greece
 		All is fine.
-	-->
+		-->
 		<!--Peter: Russia-->
 		<Replace Tag="LOC_TRAIT_LEADER_GRAND_EMBASSY_DESCRIPTION">
 			<Text>Receives [ICON_Science] Science or [ICON_Culture] Culture from [ICON_TradeRoute] Trade Routes to civilizations that are more advanced than Russia.[NEWLINE](+1 per 3 technologies or Civics ahead)</Text>
@@ -220,6 +220,9 @@
 		<Replace Tag="LOC_TRAIT_LEADER_FIRST_EMPEROR_DESCRIPTION">
 			<Text>When building Ancient and Classical wonders you may spend Builder charges to complete 15% of the original wonder cost.[NEWLINE][NEWLINE]Builders receive an additional charge.</Text>
 		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION1_DESCRIPTION">
+			<Text>[ICON_TechBoosted] Eurekas and [ICON_CivicBoosted] Inspirations provide 50% of civics and technologies instead of 40%.[NEWLINE][NEWLINE]+1 [ICON_Food], [ICON_Production], [ICON_Gold], [ICON_Science], [ICON_Culture], [ICON_Faith] for every constructed Wonder in a city.</Text>
+		</Replace>
 		<Replace Tag="LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION">
 			<Text>Chinese unique Medieval era unit that replaces the Crossbowman.[NEWLINE]+7 [ICON_Ranged] Ranged Strength when attacking adjacent enemy units.</Text>
 		</Replace>
@@ -231,7 +234,7 @@
 			<Text>Can declare a War of Liberation after gaining the Defensive Tactics Civic.[NEWLINE][NEWLINE]+100% [ICON_Production] Production and +2 [ICON_Movement] Movement for the first 10 turns after declaring a War of Liberation.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SCOTTISH_ENLIGHTENMENT_DESCRIPTION">
-			<Text>Happy cities receive an additional +5%  [ICON_SCIENCE] Science and +5%  [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Happy cities generate +1  [ICON_GreatScientist] Great Scientist point per Campus and +1 [ICON_GreatEngineer] Great Engineer point per Industrial Zone.[NEWLINE][NEWLINE]Ecstatic cities double all these amounts.</Text>
+			<Text>Happy cities receive an additional +10% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production.[NEWLINE]Ecstatic cities receive an additional +15% [ICON_SCIENCE] Science and [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Happy cities generate +1 [ICON_GreatScientist] Great Scientist point per Campus and +1 [ICON_GreatEngineer] Great Engineer point per Industrial Zone.[NEWLINE]Ecstatic cities double those amounts.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_GOLF_COURSE_DESCRIPTION">
 			<Text>Unlocks the Builder ability to construct a Golf Course, unique to Scotland.[NEWLINE][NEWLINE]+1 [ICON_AMENITIES] Amenity, +2 [ICON_GOLD] Gold, and +1 [ICON_CULTURE] Culture.[NEWLINE]+1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture if adjacent to a City Center district.[NEWLINE]+1 [ICON_CULTURE] Culture if adjacent to an Entertainment Complex district.[NEWLINE]Additional [ICON_CULTURE] Culture, [ICON_GOLD] Gold, [ICON_TOURISM] Tourism, and [ICON_HOUSING] Housing as you advance through the Civics and Technology Trees.[NEWLINE]One per City and its tile cannot be swapped.[NEWLINE][NEWLINE]Cannot be placed on Desert or Desert Hills.</Text>
@@ -348,7 +351,7 @@
 			<Text>Major adjacency bonus for Campuses, Theater Squares, and Industrial Zones if next to a river.[NEWLINE][NEWLINE]Culture Bomb adjacent tiles when completing a Harbor.</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_POLDER_DESCRIPTION">
-			<Text>Unlocks the Builder ability to construct a Polder, unique to Netherlands.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_Production] Production, and +0.5 [ICON_Housing] Housing.[NEWLINE]+1 [ICON_FOOD] Food if adjacent to a Polder improvement.[NEWLINE]Additional [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FOOD] Food as you advance through the Civics and Technology Tree.[NEWLINE][NEWLINE]Increases [ICON_Movement] Movement Cost of tile to 3.[NEWLINE]Must be placed on a Coast or Lake tile adjacent to 3 or more passable land tiles.</Text>
+			<Text>Unlocks the Builder ability to construct a Polder, unique to Netherlands.[NEWLINE][NEWLINE]+1 [ICON_FOOD] Food, +1 [ICON_Production] Production, and +0.5 [ICON_Housing] Housing.[NEWLINE]+1 [ICON_FOOD] Food if adjacent to a Polder improvement.[NEWLINE]Additional [ICON_PRODUCTION] Production, [ICON_GOLD] Gold, and [ICON_FOOD] Food as you advance through the Civics and Technology Tree.[NEWLINE][NEWLINE]Increases [ICON_Movement] Movement Cost of tile to 3.[NEWLINE]Must be placed on a Coast or Lake tile adjacent to 2 or more passable land tiles.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_DE_ZEVEN_PROVINCIEN_DESCRIPTION">
 			<Text>Netherlands unique Renaissance era unit that replaces the Frigate.[NEWLINE]+7 [ICON_Strength] Combat Strength when attacking defensible districts.[NEWLINE][NEWLINE]Requires [ICON_RESOURCE_NITER] Niter.</Text>
