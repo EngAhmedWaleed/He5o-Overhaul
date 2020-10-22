@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="f332e104-b422-4216-82ce-76c94346fdc2" version="1">
+
 	<Properties>
-		<Name>He5oWonders (1.0)</Name>
-		<Description>This mod tunes the boring wonders up.</Description>
+		<Name>[COLOR_FLOAT_GOLD]He5oWonders[ENDCOLOR]</Name>
+		<Description>This mod tunes the boring wonders up.[NEWLINE][NEWLINE]For further details please check: https://gaming.csed22.com/civ-vi/</Description>
 		<Teaser>A humble approach towards a better game.</Teaser>
 		<Authors>Ahmed Waleed</Authors>
 		<Email>ahmedwaleed@csed22.com</Email>
 		<SpecialThanks>Sobhy Said, World Wonders, Wonder Rework</SpecialThanks>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
+	
 	<Dependencies>
 		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
 	</Dependencies>
+	
 	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
 	<InGameActions>
 		<UpdateText id="Text_Updates">
@@ -22,16 +25,18 @@
 			<File>sql/wonders.sql</File>
 			<File>sql/imported/WorldWonders.sql</File>
 			<File>sql/imported/DLCWorldWonders.sql</File>
-			<File>sql/imported/RnFWorldWonders.sql</File>	
+			<File>sql/imported/RnFWorldWonders.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
+	
 	<!-- defines file dependencies -->
 	<Files>
 		<File>sql/BBG.sql</File>
 		<File>text.xml</File>
 		<File>sql/wonders.sql</File>
 		<File>sql/imported/WorldWonders.sql</File>
-		<File>sql/imported/DLCWorldWonders.sql</File>		
+		<File>sql/imported/DLCWorldWonders.sql</File>
 		<File>sql/imported/RnFWorldWonders.sql</File>
 	</Files>
+	
 </Mod>
