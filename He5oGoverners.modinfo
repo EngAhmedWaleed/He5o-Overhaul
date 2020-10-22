@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="786b9520-aed0-4b82-bb40-e95f12ea0a08" version="1.1">
+<Mod id="786b9520-aed0-4b82-bb40-e95f12ea0a08" version="1">
+
 	<Properties>
-		<Name>He5oGoverners (1.0)</Name>
-		<Description>This mod reworks the existing Governor promotions.</Description>
+		<Name>[COLOR_FLOAT_GOLD]He5oGoverners[ENDCOLOR]</Name>
+		<Description>This mod reworks the existing Governor promotions.[NEWLINE][NEWLINE]For further details please check: https://gaming.csed22.com/civ-vi/</Description>
 		<Teaser>A humble approach towards a better game.</Teaser>
 		<Authors>Ahmed Waleed</Authors>
 		<Email>ahmedwaleed@csed22.com</Email>
 		<SpecialThanks>Better Balanced Game, Governors, EpsTweak for Governors, Governor Rework, SM's Governor Rework</SpecialThanks>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
+	
 	<Dependencies>
 		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
 	</Dependencies>
+	
 	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
 	<InGameActions>
 		<UpdateText id="Text_Updates">
@@ -27,6 +30,7 @@
 			<File>sql/Vector.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
+	
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
@@ -38,4 +42,5 @@
 		<File>sql/Reyna.sql</File>
 		<File>sql/Vector.sql</File>
 	</Files>
+	
 </Mod>
