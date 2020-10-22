@@ -1,17 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mod id="5bca9fd1-7037-4b3c-962c-4579faaf7c4b" version="1">
+
 	<Properties>
-		<Name>He5oPantheons (1.0)</Name>
-		<Description>This mod reworks the existing Pantheon beliefs.</Description>
+		<Name>[COLOR_FLOAT_GOLD]He5oPantheons[ENDCOLOR]</Name>
+		<Description>This mod reworks the existing Pantheon beliefs.[NEWLINE][NEWLINE]For further details please check: https://gaming.csed22.com/civ-vi/</Description>
 		<Teaser>A humble approach towards a better game.</Teaser>
 		<Authors>Ahmed Waleed</Authors>
 		<Email>ahmedwaleed@csed22.com</Email>
 		<SpecialThanks>Better Balanced Game, Requested Pantheons, Diverse Beliefs, p0kiehl's Better Pantheons, SPM Pantheon Beliefs, Ancient Egyptian Pantheons</SpecialThanks>
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
+	
 	<Dependencies>
 		<Mod id="1B28771A-C749-434B-9053-D1380C553DE9" title="Expansion: Rise and Fall"/>
 	</Dependencies>
+	
 	<!-- defines modifications to games (requires any LocalizedText from Settings above, and must import files before modifying any SQL tables) -->
 	<InGameActions>
 		<UpdateText id="Text_Updates">
@@ -42,6 +45,7 @@
 			<File>sql/STONE_CIRCLES.sql</File>
 		</UpdateDatabase>
 	</InGameActions>
+	
 	<!-- defines file dependencies -->
 	<Files>
 		<File>text.xml</File>
@@ -68,4 +72,5 @@
 		<File>sql/SPIRIT_OF_THE_DEITY.sql</File>
 		<File>sql/STONE_CIRCLES.sql</File>
 	</Files>
+	
 </Mod>
