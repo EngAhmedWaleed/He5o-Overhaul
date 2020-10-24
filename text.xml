@@ -50,7 +50,7 @@
 			<Text>+20% [ICON_Production] Production toward Settlers in the city.[NEWLINE][NEWLINE]Settlers trained do not consume a [ICON_Citizen] Population.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_RESOURCE_MANAGER_BLACK_MARKETEER_DESCRIPTION" Language="en_US">
-			<Text>Strategic resources are not required in the city to build units.</Text>
+			<Text>Strategic resources are not required in this city to train units.</Text>
 		</Replace>
 		<Row Tag='GOVERNOR_PROMOTION_INSPIRATION_NAME' Language="en_US">
 			<Text>Inspiration</Text>
