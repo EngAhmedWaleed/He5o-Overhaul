@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="73eb3e4f-2b6f-4f74-a9cf-57490bf39c5d" version="1">
+
+	<Properties>
+		<Name>[COLOR_GREEN]"Enable Me"[ENDCOLOR]</Name>
+		<Teaser>Enables the green mods.</Teaser>
+		<Description>An easy way to enable all of the green mods after the game is launched.[NEWLINE][NEWLINE]Keep "Ignore warnings about compatibility for this mod" unchecked!</Description>
+		<Authors>Ahmed Waleed</Authors>
+		<Email>ahmedwaleed@csed22.com</Email>
+	</Properties>
+	
+	<Dependencies>
+		<Mod id="72950284-90dc-424d-ba04-4a1d8de2b336" title="Watchtower Improvement"/>
+		<Mod id="01159f41-7ca0-4181-84cf-2f2c912edfdd" title="Steel and Thunder: Unit Expansion"/>
+		<Mod id="7d0b57ba-6a5c-4de0-ac10-e1e464ac82f6" title="CIVITAS City-States"/>
+		<Mod id="d890c4ea-235f-4e46-9b5e-386cfd46c281" title="Military Engineers Build Watchtowers"/>
+	</Dependencies>
+	
+</Mod>
